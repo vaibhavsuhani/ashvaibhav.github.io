@@ -259,17 +259,18 @@ body {
 
 #bg-image {
     position: fixed; 
-    top: -30%; 
-    width: 200%; 
-    height: 200%;
-    zoom: 0.5;
+    zoom:0.25;
+    width:100%;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #bg-image img {
-    position: absolute; 
-    left: 0; 
-    margin: auto; 
-    min-width: 50%;
-    min-height: 50%;
+    position: absolute;
+    left: 50%;
+    width:100%;
+    margin: auto;
+    transform: translateX(-50%);
 }
 
 #bg-container {
