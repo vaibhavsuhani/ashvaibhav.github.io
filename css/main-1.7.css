@@ -870,3 +870,9 @@ a.email {
     border-radius: 2px;
 }
 
+#gallary #myCarousel .carousel-inner .item {
+    left: 50%;
+    transform: translateX(-50%);
+    width:500px;
+}
+
