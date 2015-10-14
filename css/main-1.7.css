@@ -319,7 +319,7 @@ section h2 {
     padding: 0;
     margin: 0;
 }
-.column p {
+.column p, .column li {
     font-size: 1em;
     line-height: 145%;
     padding: 0;
@@ -431,7 +431,7 @@ section h2 {
     }
 
 
-    .column p {
+    .column p, .column li {
         font-size: 1.1em;
     }
 
@@ -522,7 +522,7 @@ section h2 {
         float: left;
         width: 50%;
     }
-    .column p {
+    .column p, .column li {
         font-size: 1.4em;
         line-height: 145%;
         padding: 0 20px;
@@ -824,7 +824,7 @@ img.theinn  {
 div.bp h2 {
     margin: 0;
 }
-div.bp .column p {
+div.bp .column p, div.bp .column li {
     line-height: 180%;
 }
 
