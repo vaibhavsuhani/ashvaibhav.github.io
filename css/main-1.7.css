@@ -319,7 +319,7 @@ section h2 {
     padding: 0;
     margin: 0;
 }
-.column p, .column li {
+.column p, .column li, #accomodations p {
     font-size: 1em;
     line-height: 145%;
     padding: 0;
@@ -431,7 +431,7 @@ section h2 {
     }
 
 
-    .column p, .column li {
+    .column p, .column li, #accomodations p {
         font-size: 1.1em;
     }
 
@@ -522,7 +522,7 @@ section h2 {
         float: left;
         width: 50%;
     }
-    .column p, .column li {
+    .column p, .column li, #accomodations p {
         font-size: 1.4em;
         line-height: 145%;
         padding: 0 20px;
@@ -876,3 +876,6 @@ a.email {
     width:500px;
 }
 
+#accomodations p {
+    float:left;
+}
